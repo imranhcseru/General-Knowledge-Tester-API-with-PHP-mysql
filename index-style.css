@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+}
+
+html,body{
+	height: 100%;
+	margin: 0;
+	font-family: 'Lato',sans-serif;
+}
+
+.main{
+	background: url(bg.JPG) no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+}
+
+.login-div{
+	width:450px;
+	margin: 20px auto;
+	font-weight: 300;
+	color: #232323;
+	background: rgb(255,255,255,0.5);
+}
+.login-header h1{
+	font-size: 55px;
+	font-weight: 300;
+	padding: 25px;
+	text-align: center;
+}
+.login-bottom{
+	/*margin:40px;*/
+	height: 500px;
+}
+.login-bottom,input{
+	width: 100%;
+	height: 40px;
+	border: 0;
+	padding: 5px,5px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	/*background-color: #F0F0F0;*/
+}
+input:focus{
+	background-color: lightblue;
+	border:3px solid #555;
+}
+.label{
+	font-size: 30px;
+}
+
+.btn-submit{
+	padding: 5px;
+	margin: 10px,auto;
+	width: 100%;
+	height: 35px;
+	border: 0;
+	background: #fff;
+}
+
+.forgot-password{
+	text-align: right;
+}
+
+.forgot-password a{
+	color: #F0F0F0;
+}
+
+h2{
+	font-weight: 300;
+}
+
+.login-btn{
+	background-color: #fff;
+	width: 100%;
+	height: 25px;
+	display: block;
+	padding:5px;
+	margin: 20px auto;
+	text-align: center;
+	text-decoration: none;
+	color: #010101;
+}
+
+.fa-google-plus{
+	color: #DB4437;
+}
+
+.fa-facebook{
+	color: #395799;
+}
+
+.fa-github{
+	color: #010101;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+a:hover{
+	font-size: 25px;
+	text-decoration: none;
+	z-index: -1;
+}
+
+.btn-submit{
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+.footer{
+	text-align: center;
+	font-weight: 5px solid bolder;
+}
